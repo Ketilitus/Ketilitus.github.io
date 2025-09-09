@@ -1,12 +1,12 @@
 body{
+    display: grid;
+    grid-template-rows: 100px auto 100px;
 background-color: red;
 }
 
 
 
 header{
-    display: grid;
-    grid-template-rows: 100px;
     width: 100px;
     background-color: green;
 }
