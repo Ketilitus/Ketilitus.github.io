@@ -6,4 +6,6 @@ background-color: red;
 
 header{
     border: 20px;
+    width: 100px;
+    color: green;
 }
