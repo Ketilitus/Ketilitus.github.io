@@ -1,20 +1,35 @@
-body{
-    display: grid;
-    grid-template-rows: 100px auto 100px;
-background-color: #ff0000;
+/*simple CSS reset*/
+*,
+*::before *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
+html body {
+    height: 100%;
+    width: 100vw;
+    font-size: 24px;
+}
+
+/*End of reset*/
+body {
+    display: grid;
+    grid-template-rows: 200px auto 100px;
+    background-color: #ff0000;
+}
+
+h1 {
+    padding-top: 0;
+    line-height: 0;
     font-size: 100px;
 }
 
-header{
-    height: 10;
+header {
     text-align: center;
 }
 
-main{
+main {
     grid-template-columns: 200px auto 200px;
     background-color: aquamarine;
 }
-
