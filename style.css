@@ -9,6 +9,6 @@ background-color: #ff0000;
 header{
     width: 100px;
     background-color: green;
-    grid-template-columns: 100px auto 100px;
+    gap: 100px auto 100px;
 }
 
