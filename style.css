@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-rows: 100px auto 100px;
-background-color: red;
+background-color: #ff0000;
 }
 
 
@@ -9,4 +9,6 @@ background-color: red;
 header{
     width: 100px;
     background-color: green;
+    text-align: center;
 }
+
