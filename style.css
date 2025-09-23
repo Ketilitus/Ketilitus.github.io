@@ -12,3 +12,7 @@ header{
     gap: 100px auto 100px;
 }
 
+main{
+    grid-template-columns: 200px auto 200px;
+}
+
