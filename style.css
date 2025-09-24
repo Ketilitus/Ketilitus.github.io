@@ -7,16 +7,17 @@
 }
 
 html body {
-    height: 100%;
-    width: 100vw;
     font-size: 24px;
+    width: 100vw;
 }
 
 /*End of reset*/
 body {
     display: grid;
     grid-template-rows: 200px auto 100px;
-    background-color: #d34ac1;
+    background-color: #272727;
+    color: #f9f2ff;
+    height: 100vh;
 }
 
 h1 {
@@ -27,16 +28,17 @@ h1 {
 
 header {
     text-align: center;
-}
-
-main {
-    grid-template-columns: 200px auto 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main>img{
+main {
+    background-color: #333333;
+    height: 100%;
+}
+
+main>img {
     align-items: center;
-  width: 50%;
+    width: 50%;
 }
