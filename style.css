@@ -16,7 +16,7 @@ html body {
 body {
     display: grid;
     grid-template-rows: 200px auto 100px;
-    background-color: #ff0000;
+    background-color: #d34ac1;
 }
 
 h1 {
@@ -31,6 +31,9 @@ header {
 
 main {
     grid-template-columns: 200px auto 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main>img{
