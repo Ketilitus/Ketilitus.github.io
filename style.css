@@ -31,5 +31,9 @@ header {
 
 main {
     grid-template-columns: 200px auto 200px;
-    background-color: aquamarine;
+}
+
+main>img{
+    align-items: center;
+  width: 50%;
 }
